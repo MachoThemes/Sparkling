@@ -1204,8 +1204,11 @@ button:focus,
 }
 
 @media (min-width: 1024px) {
-	ul.nav li.dropdown:hover > ul.dropdown-menu,
-	ul.nav li.dropdown:focus-within > ul.dropdown-menu {
+	ul.nav li.dropdown:hover > ul.dropdown-menu{
+        display: block;
+    }
+
+    ul.nav li.dropdown:focus-within > ul.dropdown-menu {
         display: block;
     }
 }
